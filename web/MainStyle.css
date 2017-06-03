@@ -1,0 +1,1162 @@
+@font-face{
+  font-family: march;
+  src: url(../font/march.otf);
+}
+.div li {
+ list-style-type: none;
+}
+.post-content li{
+  padding:15px;
+  background-color:yellow;
+  list-style-type: none;
+
+
+}
+.idoldiv{
+  width:100%;
+
+}
+.friend{
+  position:absolute;
+  top:20%;
+  right:5%;
+  font-family: Kristen ITC;
+  font-size:20px;
+}
+
+.prof img{
+  width:100%;
+  height:100%;
+}
+.names{
+  position:absolute;
+  font-family: Kristen ITC;
+  left:5%;
+  top:63%;
+  width:200px;
+  height:100px;
+  font-size:20px;
+}
+.post-content{
+  position:absolute;
+  width:595px;
+  height:100%;
+  left:25%;
+  top:60%;
+  font-size:40px;
+  padding:0px 40px 0px 40px;
+  font-family:march;
+
+}
+.profile {
+  box-shadow: 0px 0px 20px 10px ;
+  border-radius: 10%;
+  width: 18%;
+  height: 100%;
+  background-color: #ffffff;
+  opacity: 0.3;
+  margin-top:8%;
+  margin-left: 2%;
+  filter: blur(.5px);  
+  border-width: 0px;
+  }
+  
+.prof{
+  position: absolute;	
+  width: 15%;
+  height: 33%;
+  background-color: #011737;
+  top: 28%;
+  left: 5%;
+  box-shadow: 10px 10px 10px rgba(2,1,0,0.6);
+  }
+
+.largeBack{
+  position: fixed;
+  opacity: 0.4;
+  top: 16%;
+  left: 70%;
+  width: 50%;
+  height: 100%;
+}
+
+.background{
+  position: fixed;
+  top: -1%;
+  left: -1%;
+  width: 200%;
+  height: 200%;		
+  z-index: -1;
+  }
+  
+.title{
+  position: fixed;
+  text-shadow: 5px 5px 20px 15px #2a2a2a;
+  font-family: orange juice;		
+  font-size: 400%;
+  top: -11%;
+  left: 10%;
+  color: #fcf7e9;  
+  } 
+  
+.tag{
+  position: fixed;
+  text-shadow: 5px 5px 20px 15px #2a2a2a;
+  font-family: Comic Sans MS ;		
+  font-size: 150%;
+  top: 1.6%;
+  left: 28%;
+  color: #fcf7e9;  
+  }  
+  
+  
+.top{
+  position: fixed;
+  background-color: #b88e3e;
+  top: -1%;
+  left: -1%;
+  width: 110%;
+  height: 15%;
+  }		
+
+.fadePost{
+  position: fixed;
+  box-shadow: 0px 0px 20px 10px #e8be6c;
+  background-color: #ffffff;
+  top: 30%;
+  left: 25%;
+  width: 50%;
+  height: 50%;
+  }	
+
+.backPost{
+  position: fixed;
+  background-color: #000000;
+  opacity: 0.4;
+  top: -1%;
+  left: -1%;
+  width: 150%;
+  height: 150%;
+  }	
+  
+.mid{
+  position: fixed;
+  background-color: #ffffff;
+  opacity: 0.4;
+  top: 10%;
+  left: 25%;
+  width: 50%;
+  height: 150%;
+  }	
+.midwhite{
+  position: fixed;
+  background-color: #ffffff;
+  opacity: 0.6;
+  top: 10%;
+  left: 26%;
+  width: 48%;
+  height: 150%;
+  }   
+.post{
+  position: absolute;
+  top: 45%;
+  left: 27.5%;
+  width: 45%;
+  height: 8%;
+  }	
+  
+.search{
+  position: fixed;
+  top: 5%;
+  left: 60%;
+  width: 15%;
+  height: 5%;
+  }	
+
+.dropsea {
+	position: fixed;
+    background-color: transparent;
+	top: 3.7%;
+	left: 75%;
+	width: 3%;
+	height: 7%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.lens{
+	position: fixed;
+	top: 3%;
+	left: 74.5%;
+	width: 2.5%;
+	height: 5.3%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.postFade{
+  position: fixed;
+  top: 45%;
+  left: 28.5%;
+  width: 45%;
+  height: 23%;
+  font-family: Comic Sans MS;	
+  font-size: 100%; 
+  }	
+
+.lab{
+  position: fixed;
+  top: 30%;
+  left: 28.5%;
+  width: 45%;
+  height: 23%;
+  font-family: Comic Sans MS;	
+  font-size: 150%; 
+  }	
+
+.labb{
+  position: fixed;
+  top: 33%;
+  left: 56.8%;
+  width: 45%;
+  height: 23%;
+  font-family: Comic Sans MS;	
+  font-size: 100%; 
+  }	
+
+.selectF{
+  position: fixed;
+  top: 35%;
+  left: 63.5%;
+  width: 10%;
+  height: 5%;
+  }	
+  
+.back{
+  position: absolute;
+  background-color: #000000;
+  opacity: 0.4;
+  top: 10%;
+  left: 25%;
+  width: 50%;
+  height: 30%;
+  }	
+  
+.outButton{
+  position: fixed;
+  width: 10%;
+  height: 5%;
+  top: 50%;
+  left: 85%;
+  border: 0px;
+  background-color: #bf474d;
+  font-family: Comic Sans MS;	
+  color: white;  
+  font-size: 90%;  
+  }
+
+.uploadProfile{
+  position: absolute;
+  background-color: white;
+  width: 40%;
+  height: 30%;
+  top: 31%;
+  left: 31%;
+  border: solid #d0d0d0 2px;
+  font-family: Comic Sans MS;	
+  color: #8e8e8d;  
+  font-size: 120%;  
+  transition: opacity .35s ease;
+  }
+  
+.uploadProfile:hover {
+  background-color: gray;
+  color: white;    
+}
+
+.uploadbut{
+  position: absolute;
+  width: 15%;
+  height: 6%;
+  top: 55%;
+  left: 5%;
+  border: 0px;
+  font-family: Comic Sans MS;	
+  color: white;  
+  font-size: 90%;  
+  opacity: 0;
+  transition: opacity .35s ease;
+  }
+  
+.uploadbut:hover {
+  opacity: 1;   
+  background-color: gray;
+}
+  
+.EditProfile{
+  position: absolute;
+  width: 13%;
+  height: 6%;
+  top: 105%;
+  left: 6%;
+  border: 0px;
+  background-color: #2cc0ad;
+  font-family: Comic Sans MS;	
+  color: white;  
+  font-size: 90%;  
+  }
+
+.cancelButton{
+  position: fixed;
+  width: 10%;
+  height: 6%;
+  top: 72%;
+  left: 52%;
+  border: 0px;
+  background-color: #bf474d;
+  font-family: Comic Sans MS;	
+  color: white;  
+  font-size: 100%;  
+  }
+  
+ .close{
+  position: fixed;
+  width: 3%;
+  height: 6%;
+  top: 22.2%;
+  left: 72%;
+  border: 0px;
+  background-color: #bf474d;
+  font-family: Comic Sans MS;	
+  color: white;  
+  font-size: 100%;  
+  }
+  
+.postButton{
+  position: fixed;
+  width: 10%;
+  height: 6%;
+  top: 72%;
+  left: 63.5%;
+  border: 0px;
+  background-color: #69d3ff;
+  font-family: Comic Sans MS;	
+  color: white;  
+  font-size: 100%;  
+  }
+
+ .submit-pic{
+  position: fixed;
+  width: 10%;
+  height: 6%;
+  top: 81%;
+  left: 64%;
+  border: 0px;
+  background-color: #69d3ff;
+  font-family: Comic Sans MS; 
+  color: white;  
+  font-size: 100%;  
+  }
+
+.oblog{
+  position: fixed;	
+  width: 5.5%;		
+  height: 16%;
+  top: -1.2%;
+  left: 19.1%;		
+  } 
+  
+.thisImg1{
+  position: absolute;
+  background-repeat: repeat-x;
+  top: 14%;
+  left: 25%;
+  width: 50%;
+  height: 26%;
+}
+
+.welcome{
+  position: absolute;
+  top: 28%;
+  left: 30%;
+  width: 25%;
+  font-family: Comic Sans MS;		
+  font-size: 150%; 
+  color: white;  
+}
+
+.fileC{
+   position: fixed;
+  background-color: #ffffff;
+  top: 30%;
+  left: 23.3%;
+  width: 51%;
+  height: 55%;
+}
+
+.dropbtn {
+    background-color: #48b9f3;
+	width: 160%;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: fixed;	
+    display: inline-block;
+	margin-top: -57%;
+	margin-left: 87%;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: -47;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display:block;
+     background-color: #000000;
+     color: white;
+}
+
+.dropdown-content a:hover {background-color: gray}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: gray;
+}
+.someElement{
+  position: fixed;
+  background-color: #ffffff;
+  overflow: auto;
+  top: 25%;
+  left: 20%;
+  width: 60%;
+  height: 63.5%;
+  border-width: 0px;
+  z-index: 1;
+  }	
+
+.chooseTheme1{
+  position: absolute;
+  top: 10%;
+  left: 8%;
+  width: 25%;
+  height: 25%;
+  transition: background 0.5s ease;  
+}
+
+.chooseTheme2{
+  position: absolute;
+  top: 10%;
+  left: 38%;
+  width: 25%;
+  height: 25%;
+}
+
+.chooseTheme3{
+  position: absolute;
+  top: 10%;
+  left: 68%;
+  width: 25%;
+  height: 25%;
+}
+
+.chooseTheme4{
+  position: absolute;
+  top: 45%;
+  left: 8%;
+  width: 25%;
+  height: 25%;
+}
+
+.chooseTheme5{
+  position: absolute;
+  top: 45%;
+  left: 38%;
+  width: 25%;
+  height: 25%;
+}
+
+.chooseTheme6{
+  position: absolute;
+  top: 45%;
+  left: 68%;
+  width: 25%;
+  height: 25%;
+}
+
+.chooseTheme7{
+  position: absolute;
+  top: 80%;
+  left: 8%;
+  width: 25%;
+  height: 25%;
+}
+
+.chooseTheme8{
+  position: absolute;
+  top: 80%;
+  left: 38%;
+  width: 25%;
+  height: 25%;
+}
+
+.chooseTheme9{
+  position: absolute;
+  top: 80%;
+  left: 68%;
+  width: 25%;
+  height: 25%;
+}
+
+.chooseTheme10{
+  position: absolute;
+  top: 115%;
+  left: 8%;
+  width: 25%;
+  height: 25%;
+}
+
+.chooseTheme11{
+  position: absolute;
+  top: 115%;
+  left: 38%;
+  width: 25%;
+  height: 25%;
+}
+
+.chooseTheme12{
+  position: absolute;
+  top: 115%;
+  left: 68%;
+  width: 25%;
+  height: 25%;
+}
+
+.chooseTheme13{
+  position: absolute;
+  top: 150%;
+  left: 8%;
+  width: 25%;
+  height: 25%;
+}
+
+.chooseTheme14{
+  position: absolute;
+  top: 150%;
+  left: 38%;
+  width: 25%;
+  height: 25%;
+}
+
+.chooseTheme15{
+  position: absolute;
+  top: 150%;
+  left: 68%;
+  width: 25%;
+  height: 25%;
+}
+
+
+.topTheme{
+  position: fixed;
+  background-color: #bee9ff;  
+  font-family: Comic Sans MS;
+  font-size: 150%;
+  text-align: center;
+  text-top: 6%;
+  top: 15%;
+  left: 20.2%;
+  width: 61.7%;
+  height: 10%;
+  z-index: 1;  
+  }	
+  
+.belowTheme{
+  position: fixed;
+  background-color: #bee9ff;
+  top: 91%;
+  left: 20.2%;
+  width: 61.7%;
+  height: 7%;
+  z-index: 1;  
+  }	
+
+.belowThemeWhi{
+  position: absolute;
+  background-color: #ffffff;
+  top: 180%;
+  left: 20.2%;
+  width: 61.7%;
+  height: 7%;
+  }	
+  
+.imgBut1{
+  position: absolute;
+  background-color: transparent;
+  font-family: Comic Sans MS;
+  font-size: 150%;
+  color: white;
+  opacity: 0;
+  top: 18%;
+  left: 13.3%;
+  width: 15%;
+  height: 10%;
+  border-color: white;
+  z-index: 1;  
+  }	  
+
+.imgBut1:hover {
+  opacity: 1;     
+}
+
+.imgBut2{
+  position: absolute;
+  background-color: transparent;
+  font-family: Comic Sans MS;
+  font-size: 150%;
+  color: white;
+  opacity: 0;
+  top: 18%;
+  left: 43%;
+  width: 15%;
+  height: 10%;
+  border-color: white;
+  z-index: 1;  
+  }	  
+
+.imgBut2:hover {
+  opacity: 1;     
+}
+
+.imgBut3{
+  position: absolute;
+  background-color: transparent;
+  font-family: Comic Sans MS;
+  font-size: 150%;
+  color: white;
+  opacity: 0;
+  top: 18%;
+  left: 73%;
+  width: 15%;
+  height: 10%;
+  border-color: white;
+  z-index: 1;  
+  }	  
+
+.imgBut3:hover {
+  opacity: 1;     
+}
+  
+.imgBut4{
+  position: absolute;
+  background-color: transparent;
+  font-family: Comic Sans MS;
+  font-size: 150%;
+  color: white;
+  opacity: 0;
+  top: 53%;
+  left: 13.3%;
+  width: 15%;
+  height: 10%;
+  border-color: white;
+  z-index: 1;  
+  }	  
+
+.imgBut4:hover {
+  opacity: 1;     
+}
+
+.imgBut5{
+  position: absolute;
+  background-color: transparent;
+  font-family: Comic Sans MS;
+  font-size: 150%;
+  color: white;
+  opacity: 0;
+  top: 53%;
+  left: 43%;
+  width: 15%;
+  height: 10%;
+  border-color: white;
+  z-index: 1;  
+  }	  
+
+.imgBut5:hover {
+  opacity: 1;     
+}
+
+.imgBut6{
+  position: absolute;
+  background-color: transparent;
+  font-family: Comic Sans MS;
+  font-size: 150%;
+  color: white;
+  opacity: 0;
+  top: 53%;
+  left: 73%;
+  width: 15%;
+  height: 10%;
+  border-color: white;
+  z-index: 1;  
+  }	  
+
+.imgBut6:hover {
+  opacity: 1;     
+}
+
+.imgBut7{
+  position: absolute;
+  background-color: transparent;
+  font-family: Comic Sans MS;
+  font-size: 150%;
+  color: white;
+  opacity: 0;
+  top: 88%;
+  left: 13.3%;
+  width: 15%;
+  height: 10%;
+  border-color: white;
+  z-index: 1;  
+  }	  
+
+.imgBut7:hover {
+  opacity: 1;     
+}
+
+.imgBut8{
+  position: absolute;
+  background-color: transparent;
+  font-family: Comic Sans MS;
+  font-size: 150%;
+  color: white;
+  opacity: 0;
+  top: 88%;
+  left: 43%;
+  width: 15%;
+  height: 10%;
+  border-color: white;
+  z-index: 1;  
+  }	  
+
+.imgBut8:hover {
+  opacity: 1;     
+}
+
+.imgBut9{
+  position: absolute;
+  background-color: transparent;
+  font-family: Comic Sans MS;
+  font-size: 150%;
+  color: white;
+  opacity: 0;
+  top: 88%;
+  left: 73%;
+  width: 15%;
+  height: 10%;
+  border-color: white;
+  z-index: 1;  
+  }	  
+
+.imgBut9:hover {
+  opacity: 1;     
+}
+
+.imgBut10{
+  position: absolute;
+  background-color: transparent;
+  font-family: Comic Sans MS;
+  font-size: 150%;
+  color: white;
+  opacity: 0;
+  top: 122%;
+  left: 13.3%;
+  width: 15%;
+  height: 10%;
+  border-color: white;
+  z-index: 1;  
+  }	  
+
+.imgBut10:hover {
+  opacity: 1;     
+}
+
+.imgBut11{
+  position: absolute;
+  background-color: transparent;
+  font-family: Comic Sans MS;
+  font-size: 150%;
+  color: white;
+  opacity: 0;
+  top: 122%;
+  left: 43%;
+  width: 15%;
+  height: 10%;
+  border-color: white;
+  z-index: 1;  
+  }	  
+
+.imgBut11:hover {
+  opacity: 1;     
+}
+
+.imgBut12{
+  position: absolute;
+  background-color: transparent;
+  font-family: Comic Sans MS;
+  font-size: 150%;
+  color: white;
+  opacity: 0;
+  top: 122%;
+  left: 73%;
+  width: 15%;
+  height: 10%;
+  border-color: white;
+  z-index: 1;  
+  }	  
+
+.imgBut12:hover {
+  opacity: 1;     
+}
+
+.imgBut13{
+  position: absolute;
+  background-color: transparent;
+  font-family: Comic Sans MS;
+  font-size: 150%;
+  color: white;
+  opacity: 0;
+  top: 158%;
+  left: 13.3%;
+  width: 15%;
+  height: 10%;
+  border-color: white;
+  z-index: 1;  
+  }	  
+
+.imgBut13:hover {
+  opacity: 1;     
+}
+
+.imgBut14{
+  position: absolute;
+  background-color: transparent;
+  font-family: Comic Sans MS;
+  font-size: 150%;
+  color: white;
+  opacity: 0;
+  top: 158%;
+  left: 43%;
+  width: 15%;
+  height: 10%;
+  border-color: white;
+  z-index: 1;  
+  }	  
+
+.imgBut14:hover {
+  opacity: 1;     
+}
+
+.imgBut15{
+  position: absolute;
+  background-color: transparent;
+  font-family: Comic Sans MS;
+  font-size: 150%;
+  color: white;
+  opacity: 0;
+  top: 158%;
+  left: 73%;
+  width: 15%;
+  height: 10%;
+  border-color: white;
+  z-index: 1;  
+  }	  
+
+.imgBut15:hover {
+  opacity: 1;     
+}
+
+.showThemeList .showTheme{
+position: fixed;
+  top: -1%;
+  left: -1%;	
+  width: 110%;
+  height: 130%;
+  z-index: -1;
+}
+
+.showThemeList .showTheme2{
+position: fixed;
+  top: -1%;
+  left: -1%;	
+  width: 110%;
+  height: 130%;
+  z-index: -1;
+}
+
+.showThemeList .showTheme3{
+position: fixed;
+  top: -1%;
+  left: -1%;
+  width: 110%;
+  height: 130%;
+  z-index: -1;
+}
+
+.showThemeList .showTheme4{
+position: fixed;
+  top: -1%;
+  left: -1%;
+  width: 110%;
+  height: 130%;
+  z-index: -1;
+}
+
+.showThemeList .showTheme5{
+position: fixed;
+  top: -1%;
+  left: -1%;
+  width: 110%;
+  height: 130%;
+  z-index: -1;
+}
+
+.showThemeList .showTheme6{
+position: fixed;
+  top: -1%;
+  left: -1%;	
+  width: 110%;
+  height: 130%;
+  z-index: -1;
+}
+
+.showThemeList .showTheme7{
+position: fixed;
+  top: -1%;
+  left: -1%;	
+  width: 110%;
+  height: 130%;
+  z-index: -1;
+}
+
+.showThemeList .showTheme8{
+position: fixed;
+  top: -1%;
+  left: -1%;	
+  width: 110%;
+  height: 130%;
+  z-index: -1;
+}
+
+.showThemeList .showTheme9{
+position: fixed;
+  top: -1%;
+  left: -1%;
+  width: 110%;
+  height: 130%;
+  z-index: -1;
+}
+
+.showThemeList .showTheme10{
+position: fixed;
+  top: -1%;
+  left: -1%;
+  width: 110%;
+  height: 130%;
+  z-index: -1;
+}
+
+.showThemeList .showTheme11{
+position: fixed;
+  top: -1%;
+  left: -1%;
+  width: 110%;
+  height: 130%;
+  z-index: -1;
+}
+
+.showThemeList .showTheme12{
+position: fixed;
+  top: -1%;
+  left: -1%;
+  width: 110%;
+  height: 130%;
+  z-index: -1;
+}
+
+.showThemeList .showTheme13{
+position: fixed;
+  top: -1%;
+  left: -1%;
+  width: 110%;
+  height: 130%;
+  z-index: -1;
+}
+.showThemeList .showTheme14{
+position: fixed;
+  top: -1%;
+  left: -1%;
+  width: 110%;
+  height: 130%;
+  z-index: -1;
+}
+.showThemeList .showTheme15{
+position: fixed;
+  top: -1%;
+  left: -1%;
+  width: 110%;
+  height: 130%;
+  z-index: -1;
+}
+.themeOk{
+  position: fixed;
+  background-color: transparent; 
+  top: 92%;
+  left: 70%;
+  width: 8%;
+  height: 5%; 
+  border: 0px;
+  background-color: #48b9f3;
+  font-family: Comic Sans MS;
+  color: white;  
+  font-size: 100%;  
+   z-index: 1;
+  }	 
+  
+.accSettings{
+  position: fixed;
+  background-color: #ffffff;
+  top: 30%;
+  left: 34.9%;
+  width: 28.2%;
+  height: 50%;
+  border-width: 0;
+  z-index: 1;
+}
+
+.topAcc{
+  position: fixed;  
+  background-color: #bee9ff;  
+  font-family: Comic Sans MS;
+  font-size: 150%;
+  text-align: center;
+  text-top: 5%;
+  top: 20%;
+  left: 35%;
+  width: 30%;
+  height: 10%;
+  z-index: 1;
+}
+
+.topProf{
+  position: fixed;  
+  background-color: #bee9ff;  
+  font-family: Comic Sans MS;
+  font-size: 150%;
+  text-align: center;
+  text-top: 5%;
+  top: 20.2%;
+  left: 23.5%;
+  width: 53%;
+  height: 10%;
+  z-index: 1;
+  
+}
+.belowAcc{
+  position: fixed;
+  background-color: #bee9ff;
+  top: 80%;
+  left: 35%;
+  width: 30%;
+  height: 10%;
+  z-index: 1;  
+  }	
+  
+.belowProf{
+  position: fixed;
+  background-color: #bee9ff;
+  top: 80%;
+  left: 23.5%;
+  width: 53%;
+  height: 8%;
+  z-index: 1;  
+  }	
+
+.currentPass {
+  position: fixed;
+  width: 17%;
+  height: 5%;
+  top: 42%;
+  left: 41%;
+  font-family: Comic Sans MS;		
+  font-size: 90%; 
+  }	
+  
+.passWordSet {
+  position: fixed;
+  width: 17%;
+  height: 5%;
+  top: 52%;
+  left: 41%;
+  font-family: Comic Sans MS;		
+  font-size: 90%; 
+  }	
+  
+.conPassWordSet {
+  position: fixed;
+  width: 17%;
+  height: 5%;
+  top: 62%;
+  left: 41%;
+  font-family: Comic Sans MS;		
+  font-size: 90%; 
+  }	
+  
+.setOk{
+  position: fixed;
+  background-color: transparent; 
+  top: 82%;
+  left: 55%;
+  width: 8%;
+  height: 5%; 
+  border: 0px;
+  background-color: #48b9f3;
+  font-family: Comic Sans MS;
+  color: white;  
+  font-size: 100%;  
+   z-index: 1;
+  }	 
+  
+.setCan{
+  position: fixed;
+  background-color: transparent; 
+  top: 82%;
+  left: 45%;
+  width: 8%;
+  height: 5%; 
+  border: 0px;
+  background-color: #bf474d;
+  font-family: Comic Sans MS;
+  color: white;  
+  font-size: 100%;  
+   z-index: 1;
+  }	 

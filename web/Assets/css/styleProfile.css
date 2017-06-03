@@ -1,0 +1,93 @@
+	.profie{
+	}.profies{
+		width: 30%;
+		height:5%;
+	}.Caption{
+		text-transform: capitalize;
+	}ul.img-list li {
+		display: inline-block;
+		height: 400px;
+		margin: 0 1em 1em 0;
+		position: relative;
+		width: 500px;
+	}span.text-content {
+		background: rgba(0,0,0,0.5);
+		color: white;
+		cursor: pointer;
+		display: table;
+		height: 250px;
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 300px;
+		opacity: 0;
+		-webkit-transition: opacity 500ms;
+		-moz-transition: opacity 500ms;
+		-o-transition: opacity 500ms;
+		transition: opacity 500ms;
+	}span.text-content span {
+		display: table-cell;
+		text-align: center;
+		vertical-align: middle;
+	}ul.img-list li:hover span.text-content {
+		opacity: 1;
+	}ul.img-list1 li {
+		display: inline-block;
+		height: 400px;
+		margin: 0 1em 1em 0;
+		position: relative;
+		width: 500px;
+	}span.text-content1 {
+		background: rgba(0,0,0,0.5);
+		color: white;
+		cursor: pointer;
+		display: table;
+		height: 250px;
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 300px;
+		opacity: 0;
+		-webkit-transition: opacity 500ms;
+		-moz-transition: opacity 500ms;
+		-o-transition: opacity 500ms;
+		transition: opacity 500ms;
+	}span.text-content1 span {
+		display: table-cell;
+		text-align: center;
+		vertical-align: middle;
+	}ul.img-list1 li:hover span.text-content1 {
+		opacity: 1;
+	}ul.img-list2 li {
+		display: inline-block;
+		height: 400px;
+		margin: 0 1em 1em 0;
+		position: relative;
+		width: 500px;
+	}span.text-content2 {
+		background: rgba(0,0,0,0.5);
+		color: white;
+		cursor: pointer;
+		display: table;
+		height: 250px;
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 300px;
+		opacity: 0;
+		-webkit-transition: opacity 500ms;
+		-moz-transition: opacity 500ms;
+		-o-transition: opacity 500ms;
+		transition: opacity 500ms;
+	}span.text-content2 span {
+		display: table-cell;
+		text-align: center;
+		vertical-align: middle;
+	}ul.img-list2 li:hover span.text-content2 {
+		opacity: 1;
+	}/* Add padding to container elements */
+	.container3 {
+		padding: 16px;
+	}.photos1, .photos2, .photos3{
+		margin-top: 2%
+	}

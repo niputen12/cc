@@ -1,0 +1,109 @@
+	.bk{
+		position: relative;
+		left: 25%;
+		height: 70%;
+		width: 50%;
+		border-radius: 7px;
+		background-color: #262626;
+	} .SignUp, .Greet, .chk{
+		color: white;
+	}.al{
+		color: red;
+	}.r1{
+		position: relative;
+		top: -3.5%;
+		background-color: #262626;
+	}.Email{
+		font-size: 18px;
+		width: 60%;
+		height: 10%;
+		border: solid 1px #336699;
+		border-radius: 7px;
+		z-index: 20;
+	}.PassWord{
+		font-size: 18px;
+		width: 45%;
+		height: 10%;
+		border: solid 1px #336699;
+		border-radius: 7px;
+		z-index: 20;
+	}.btn-submit{
+		font-family: Arial ;
+		font-size: 17px;
+		height: 10%;
+		width:15%;
+		color: white;
+		background-color:orange;
+		border-top: 1px orange;
+		border-right: 1px orange;
+		border-bottom: 1px orange;
+		border-top: 1px orange;
+		border-radius: 5px;
+	}.btn-submit:hover,
+	.btn-submit:focus {
+		background-color: red;
+		cursor: pointer;
+	}i{
+		font-size: 15px;
+		color: white;
+	}.ma{
+		position: relative;
+		margin-top: 1%;
+		margin-left: 31%;
+		display: flex;
+	}.ma li{
+		list-style: none;
+		font-family: arial;
+		font-size: 5em;
+		letter-spacing: 15px;
+		color: #484848;
+		text-shadow: none;
+		animation: animate 1s infinite linear
+	}@keyframes animate{
+		0%{
+			color: #484848;
+			text-shadow: none;
+		}18%{
+			color: #484848;
+			text-shadow: none;
+		}20%{
+			color: #fff900;
+			text-shadow: 0 0 7px #fff900 , 0 0 20px #ff6c00;
+		}30%{
+			color: #484848;
+			text-shadow: none;
+		}35%{
+			color: #fff900;
+			text-shadow: 0 0 7px #fff900 , 0 0 20px #ff6c00;
+		}70%{
+			color: #484848;
+			text-shadow: none;
+		}85%{
+			color: #fff900;
+			text-shadow: 0 0 7px #fff900 , 0 0 20px #ff6c00;
+		}90%{
+			color: #484848;
+			text-shadow: none;
+		}100%{
+			color: #484848;
+			text-shadow: none;
+		}
+	}.ma li:nth-child(1){
+		animation-delay: .2s;
+	}.ma li:nth-child(2){
+		animation-delay: .4s;
+	}.ma li:nth-child(3){
+		animation-delay: .6s;
+	}.ma li:nth-child(4){
+		animation-delay: .8s;
+	}.ma li:nth-child(5){
+		animation-delay: 1s;
+	}.ma li:nth-child(6){
+		animation-delay: 1.2s;
+	}.ma li:nth-child(7){
+		animation-delay: 1.4s;
+	}.ma li:nth-child(8){
+		animation-delay: 1.6s;
+	}.ma li:nth-child(9){
+		animation-delay: 1.8s;
+	}

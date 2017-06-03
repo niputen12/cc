@@ -1,0 +1,209 @@
+<html>
+	<head>
+		<title>Main Page</title>
+		<meta charset = "utf 8">
+		<meta name = "viewport" content = "width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/MainStyle.css">
+		<link rel = "stylesheet" href="Assets/css/bootstrap.min.css">
+		<link rel = "stylesheet" href="Assets/css/bootstrap.css">
+		<link rel = "stylesheet" href="Assets/css/font-awesome.min.css">
+        <script src = "Assets/js/jquery.min.js"></script>
+        <script src = "Assets/js/bootstrap.js"></script>
+        <script src = "Assets/js/user.js"></script>
+	</head>
+
+	<body onload="post()">
+	<img class ="background" src = "images\back_reg.jpg">
+	
+	
+		<nav class = "navbar navbar-inverse navbar-fixed-top" style="z-index: 50; padding-top: 20px;">
+			<div class ="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle Navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="#" class="navbar-brand" id="titlePage">ka-BLOG</a>
+					<img class ="oblog" src = "images\kb.png">
+				</div>
+				<div class ="collapse navbar-collapse" >
+					<ul class="nav navbar-nav">
+								<div class="form-group">
+								<input type="text" placeholder="Search" class="form-control" id="search">
+								</div>		
+						
+					</ul>
+
+						<ul class="nav navbar-nav navbar-right">
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Options<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li data-toggle="modal" data-target="#account"><a href="#">Account Settings</a></li>	
+									<li  data-toggle="modal" data-target="#theme"><a href="#">Themes</a></li>	
+									<li><a href="index.html">Logout</a></li>		
+								</ul>
+							</li>
+						</ul>
+				</div>
+			</div>
+		</nav>
+    
+<div class="container-fluid">
+
+	<div class = "row">
+	
+			<div class="col-md-3">		
+					<center><div class="prof" ><img id="testImg"></div></center>
+					<center><div class="profile"></div></center>
+					<center><button id="uploadbut" data-toggle="modal" data-target="#uplo">Upload Profile Picture</button></center>	
+					<div class="names">
+					<center><p class= "name"></p></center>
+					</div>
+			</div>
+			
+			<div class="col-md-6 ">
+							
+						
+						<form>							
+							<div class="form-group" style="padding-right: 45px">
+								<input type="text" class="form-control" id="post"  data-toggle="modal" data-target="#postWindow" placeholder="Share Something">
+							</div>
+						</form>
+						<img class="thisImg1" src="images\ban.jpg">
+						<div class="post-content"></div>
+							
+					
+			</div>
+			<div class="col-md-3">	
+					<div class="friend">
+							<center><p class="ti">Following</p></center> <br> <br>
+							<ul class="div">
+							</ul>		
+					</div>		
+			</div>
+			
+	</div>
+</div>
+
+
+    <div class="container-fluid">
+    	<div class="modal fade" id = "postWindow">
+    		<div class="modal-dialog">
+    			<div class="modal-content">
+    				<div class="modal-header">
+    					<button type="button" class="close" data-dismiss="modal">&times;</button>
+    					<p class="modal-title">What's your Story?</p>
+    				</div>
+    				<div class="modal-body">
+    					<form role="form">
+    						<div class="form-group">
+    							<textarea class="form-control" id="postFade" style="height: 15%;" placeholder="Share your blog here..." rows="4" cols="25"></textarea>
+    						</div>    						
+    					</form>
+    				</div>
+    				<div class="modal-footer">
+    					<button type="button" class="btn btn-primary btn-block" id="postButton">Post</button>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+	
+	 <div class="container-fluid">
+    	<div class="modal fade" id = "account">
+    		<div class="modal-dialog">
+    			<div class="modal-content">
+    				<div class="modal-header">
+    					<button type="button" class="close" data-dismiss="modal">&times;</button>
+    					<p class="modal-title">Account Settings</p>
+    				</div>
+    				<div class="modal-body">
+    					<form role="form">
+    						<div class="form-group">
+									<input type="password" value="" class="currentPass" placeholder="Current Password"/>
+									<input type="password" value="" class="passWordSet" placeholder="New Password"/>
+									<input type="password" value="" class="conPassWordSet" placeholder="Retype New Password"/>
+    						</div>    						
+    					</form>
+    				</div>
+    				<div class="modal-footer">
+    					<button type="button" class="btn btn-primary btn-block" id="setOk">Save Changes</button>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+	
+	<div class="container-fluid">
+    	<div class="modal fade" id = "uplo">
+    		<div class="modal-dialog">
+    			<div class="modal-content">
+    				<div class="modal-header">
+    					<button type="button" class="close" data-dismiss="modal">&times;</button>
+    					<p class="modal-title" >Upload Profile Picture</p>
+    				</div>
+    				<div class="modal-body">
+									<form action="http://localhost:8000/api/gImg" method="post" enctype="multipart/form-data">
+									<input type="file" name="image" id="upload" class="pic-up"   multiple / accept="image/*" />
+									<input type="text" class="test" style="visibility:hidden;" name="username">
+									<input type="submit" class="btn btn-primary btn-block" id="setOk"> 
+									</form>    						
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+	<div class="container-fluid">
+    	<div class="modal fade" id = "theme">
+    		<div class="modal-dialog">
+    			<div class="modal-content">
+    				<div class="modal-header">
+    					<button type="button" class="close" data-dismiss="modal">&times;</button>
+    					<p class="modal-title">Pick your Theme</p>
+    				</div>
+    				<div class="modal-body" style="overflow-y: auto;">    					
+    							<button id="chooseTheme1"><img class="img-responsive"  alt="img" src="images/1.jpg"/></button>
+								<button id="chooseTheme2"><img class="img-responsive"  alt="img" src="images/2.jpg"/></button>
+								<button id="chooseTheme3"><img class="img-responsive"  alt="img" src="images/3.jpg"/></button>
+								<button id="chooseTheme4"><img class="img-responsive"  alt="img" src="images/4.jpg"/></button>
+								<button id="chooseTheme5"><img class="img-responsive"  alt="img" src="images/5.jpg"/></button>
+								<button id="chooseTheme6"><img class="img-responsive"  alt="img" src="images/6.jpg"/></button>								
+								<button id="chooseTheme7"><img class="img-responsive"  alt="img" src="images/7.jpg"/></button>
+								<button id="chooseTheme8"><img class="img-responsive"  alt="img" src="images/8.jpg"/></button>
+								<button id="chooseTheme9"><img class="img-responsive"  alt="img" src="images/9.jpg"/></button>
+								<button id="chooseTheme10"><img class="img-responsive"  alt="img" src="images/10.jpg"/></button>	
+								<button id="chooseTheme11"><img class="img-responsive"  alt="img" src="images/11.jpg"/></button>	
+								<button id="chooseTheme14"><img class="img-responsive"  alt="img" src="images/14.jpg"/></button>
+								<button id="chooseTheme15"><img class="img-responsive"  alt="img" src="images/15.jpg"/></button>	
+						
+							   
+    				</div>    				
+    			</div>
+    		</div>
+    	</div>
+    </div>
+	
+	<div class="showThemeList">	
+		<img class="showTheme" src = "images\1.jpg">
+		<img class="showTheme2" src = "images\2.jpg">
+		<img class="showTheme3" src = "images\3.jpg">
+		<img class="showTheme4" src = "images\4.jpg">
+		<img class="showTheme5" src = "images\5.jpg">
+		<img class="showTheme6" src = "images\6.jpg">
+		<img class="showTheme7" src = "images\7.jpg">
+		<img class="showTheme8" src = "images\8.jpg">
+		<img class="showTheme9" src = "images\9.jpg">
+		<img class="showTheme10" src = "images\10.jpg">
+		<img class="showTheme11" src = "images\11.jpg">
+		<img class="showTheme14" src = "images\14.jpg">
+		<img class="showTheme15" src = "images\15.jpg">
+	</div>	
+	
+    <script src="js/jquery.js"></script>
+
+	
+	</body>	
+</html>

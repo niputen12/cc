@@ -1,0 +1,243 @@
+$(document).ready(function(){
+ $('.showTheme15').hide()
+ $('.showTheme14').hide()
+ $('.showTheme11').hide()
+ $('.showTheme10').hide()
+ $('.showTheme9').hide()
+ $('.showTheme8').hide()
+ $('.showTheme7').hide()	
+ $('.showTheme6').hide()
+ $('.showTheme5').hide()
+ $('.showTheme4').hide()
+ $('.showTheme3').hide()
+ $('.showTheme2').hide()
+ $('.showTheme').hide()
+    $("#chooseTheme1").click(function(){ 
+$('.background').hide("fast")	
+$('.showTheme4').hide("fast")
+$('.showTheme3').hide("fast")			
+$('.showTheme2').hide("fast")
+$('.showTheme5').hide("fast")
+$('.showTheme6').hide("fast")	
+$('.showTheme7').hide("fast")	
+$('.showTheme8').hide("fast")	
+$('.showTheme9').hide("fast")
+$('.showTheme10').hide("fast")
+$('.showTheme11').hide("fast")
+$('.showTheme14').hide("fast")
+$('.showTheme15').hide("fast")
+$('.showTheme').show("fast")	
+
+    });
+	
+	 $("#chooseTheme2").click(function(){ 
+$('.background').hide("fast")
+$('.showTheme').hide("fast")
+$('.showTheme3').hide("fast")
+$('.showTheme4').hide("fast")	
+$('.showTheme5').hide("fast")
+$('.showTheme6').hide("fast")	
+$('.showTheme7').hide("fast")
+$('.showTheme8').hide("fast")	
+$('.showTheme9').hide("fast")	
+$('.showTheme10').hide("fast")
+$('.showTheme11').hide("fast")
+$('.showTheme14').hide("fast")
+$('.showTheme15').hide("fast")
+$('.showTheme2').show("fast")	
+
+    });
+	
+	$("#chooseTheme3").click(function(){ 
+$('.background').hide("fast")	
+$('.showTheme').hide("fast")
+$('.showTheme2').hide("fast")	
+$('.showTheme4').hide("fast")
+$('.showTheme5').hide("fast")	
+$('.showTheme6').hide("fast")
+$('.showTheme7').hide("fast")
+$('.showTheme8').hide("fast")
+$('.showTheme9').hide("fast")
+$('.showTheme10').hide("fast")
+$('.showTheme11').hide("fast")
+$('.showTheme14').hide("fast")
+$('.showTheme15').hide("fast")
+$('.showTheme3').show("fast")	
+
+    });
+	
+	$("#chooseTheme4").click(function(){ 
+$('.background').hide("fast")	
+$('.showTheme').hide("fast")
+$('.showTheme2').hide("fast")	
+$('.showTheme3').hide("fast")
+$('.showTheme5').hide("fast")	
+$('.showTheme6').hide("fast")
+$('.showTheme7').hide("fast")
+$('.showTheme8').hide("fast")
+$('.showTheme9').hide("fast")
+$('.showTheme10').hide("fast")
+$('.showTheme11').hide("fast")
+$('.showTheme14').hide("fast")
+$('.showTheme15').hide("fast")
+$('.showTheme4').show("fast")	
+
+    });
+	
+	$("#chooseTheme5").click(function(){ 
+$('.background').hide("fast")	
+$('.showTheme').hide("fast")
+$('.showTheme2').hide("fast")	
+$('.showTheme3').hide("fast")
+$('.showTheme4').hide("fast")	
+$('.showTheme6').hide("fast")
+$('.showTheme7').hide("fast")
+$('.showTheme8').hide("fast")
+$('.showTheme9').hide("fast")
+$('.showTheme10').hide("fast")
+$('.showTheme11').hide("fast")
+$('.showTheme14').hide("fast")
+$('.showTheme15').hide("fast")
+$('.showTheme5').show("fast")	
+
+    });
+	
+	$("#chooseTheme6").click(function(){ 
+$('.background').hide("fast")	
+$('.showTheme').hide("fast")
+$('.showTheme2').hide("fast")	
+$('.showTheme3').hide("fast")
+$('.showTheme4').hide("fast")	
+$('.showTheme5').hide("fast")	
+$('.showTheme7').hide("fast")
+$('.showTheme8').hide("fast")
+$('.showTheme9').hide("fast")
+$('.showTheme10').hide("fast")
+$('.showTheme11').hide("fast")
+$('.showTheme14').hide("fast")
+$('.showTheme15').hide("fast")
+$('.showTheme6').show("fast")
+
+    });
+	
+	$("#chooseTheme7").click(function(){ 
+$('.background').hide("fast")	
+$('.showTheme').hide("fast")
+$('.showTheme2').hide("fast")	
+$('.showTheme3').hide("fast")
+$('.showTheme4').hide("fast")	
+$('.showTheme5').hide("fast")	
+$('.showTheme6').hide("fast")
+$('.showTheme8').hide("fast")
+$('.showTheme9').hide("fast")
+$('.showTheme10').hide("fast")
+$('.showTheme11').hide("fast")
+$('.showTheme14').hide("fast")
+$('.showTheme15').hide("fast")
+$('.showTheme7').show("fast")
+
+    });
+	
+	$("#chooseTheme8").click(function(){ 
+$('.background').hide("fast")	
+$('.showTheme').hide("fast")
+$('.showTheme2').hide("fast")	
+$('.showTheme3').hide("fast")
+$('.showTheme4').hide("fast")	
+$('.showTheme5').hide("fast")	
+$('.showTheme6').hide("fast")
+$('.showTheme7').hide("fast")
+$('.showTheme9').hide("fast")
+$('.showTheme10').hide("fast")
+$('.showTheme11').hide("fast")
+$('.showTheme14').hide("fast")
+$('.showTheme15').hide("fast")
+$('.showTheme8').show("fast")
+
+    });
+	
+	$("#chooseTheme9").click(function(){ 
+$('.background').hide("fast")	
+$('.showTheme').hide("fast")
+$('.showTheme2').hide("fast")	
+$('.showTheme3').hide("fast")
+$('.showTheme4').hide("fast")	
+$('.showTheme5').hide("fast")	
+$('.showTheme6').hide("fast")
+$('.showTheme7').hide("fast")
+$('.showTheme8').hide("fast")
+$('.showTheme10').hide("fast")
+$('.showTheme11').hide("fast")
+$('.showTheme14').hide("fast")
+$('.showTheme15').hide("fast")
+$('.showTheme9').show("fast")
+
+    });
+	
+	$("#chooseTheme10").click(function(){ 
+$('.background').hide("fast")	
+$('.showTheme').hide("fast")
+$('.showTheme2').hide("fast")	
+$('.showTheme3').hide("fast")
+$('.showTheme4').hide("fast")	
+$('.showTheme5').hide("fast")	
+$('.showTheme6').hide("fast")
+$('.showTheme7').hide("fast")
+$('.showTheme8').hide("fast")
+$('.showTheme9').hide("fast")
+$('.showTheme11').hide("fast")
+$('.showTheme14').hide("fast")
+$('.showTheme15').hide("fast")
+$('.showTheme10').show("fast")
+});
+	$("#chooseTheme11").click(function(){ 
+$('.background').hide("fast")	
+$('.showTheme').hide("fast")
+$('.showTheme2').hide("fast")	
+$('.showTheme3').hide("fast")
+$('.showTheme4').hide("fast")	
+$('.showTheme5').hide("fast")	
+$('.showTheme6').hide("fast")
+$('.showTheme7').hide("fast")
+$('.showTheme8').hide("fast")
+$('.showTheme9').hide("fast")
+$('.showTheme10').hide("fast")
+$('.showTheme14').hide("fast")
+$('.showTheme15').hide("fast")
+$('.showTheme11').show("fast")
+});
+
+	$("#chooseTheme14").click(function(){ 
+$('.background').hide("fast")	
+$('.showTheme').hide("fast")
+$('.showTheme2').hide("fast")	
+$('.showTheme3').hide("fast")
+$('.showTheme4').hide("fast")	
+$('.showTheme5').hide("fast")	
+$('.showTheme6').hide("fast")
+$('.showTheme7').hide("fast")
+$('.showTheme8').hide("fast")
+$('.showTheme9').hide("fast")
+$('.showTheme10').hide("fast")
+$('.showTheme11').hide("fast")
+$('.showTheme15').hide("fast")
+$('.showTheme14').show("fast")
+});
+
+	$("#chooseTheme15").click(function(){ 
+$('.background').hide("fast")	
+$('.showTheme').hide("fast")
+$('.showTheme2').hide("fast")	
+$('.showTheme3').hide("fast")
+$('.showTheme4').hide("fast")	
+$('.showTheme5').hide("fast")	
+$('.showTheme6').hide("fast")
+$('.showTheme7').hide("fast")
+$('.showTheme8').hide("fast")
+$('.showTheme9').hide("fast")
+$('.showTheme10').hide("fast")
+$('.showTheme11').hide("fast")
+$('.showTheme14').hide("fast")
+$('.showTheme15').show("fast")
+});
+});
